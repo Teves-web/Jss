@@ -1,0 +1,26 @@
+                  NULO	                    INDEFINIDO	                          VAZIO
+  
+ USADO PARA:  Defina explicitamente                                      Uma string vazia.
+              “nada” ou “ausente”.	    Uma variável sem 
+                                       um valor atribuído.
+                                       
+                                       
+EXEMPLO:   var members =                 var result;                     var table = "";
+         ["Jon", "Joy", null];
+         
+         
+         
+TIPO DE DADOS: Objeto.                   Indefinido.	                     Fragmento.
+
+
+
+COMPARAÇÃO: null == undefined               
+            null !== undefined
+            null != ""
+            null !== ""               undefined == null
+                                      undefined !== null
+                                      undefined != ""
+                                      undefined !== ""                  "" != null
+                                                                        "" !== null
+                                                                        "" != undefined
+                                                                        "" !== undefined
