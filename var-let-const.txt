@@ -1,0 +1,8 @@
+
+
+
+                  (global ou local)    (bloco)        (bloco)
+                            VAR           LET          CONST
+           Escopo  =        Sim           Não          Não
+           Redeclara =     Sim           Não          Sim
+           Hoisting  =     Sim          Não          Não
