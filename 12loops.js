@@ -74,3 +74,128 @@ function getAnimal(id){
 getAnimal(1) // cão
 getAnimal(4) // peixe
 getAnimal("1") //peixe
+
+//for
+//Loop dentro de elementos iteráveis (arrays, string).
+
+function multiplicaPorDois(array){
+  let multiplicados = [];
+
+  for(let i = 0; i < array.length; i++){
+    multiplicados.push(array[i] * 2);
+  }
+
+  return multiplicados;
+}
+
+const meusNumeros = [2, 33, 456, 356, 40];
+
+multiplicaPorDois(meusNumeros);
+// [4, 66, 912, 712, 80]
+
+
+
+//for in
+//loop entre propriedades enumeráveis de um objeto.
+function forInExemplo(obj){
+  for(prop in obj){
+    console.log(prop);
+  }
+}
+
+const meuObjeto = {
+  nome: "João",
+  idade: "22",
+  cidade: "Ilhéus",
+}
+
+forInExemplo(meuObjeto);
+//nome
+//idade
+//cidade
+
+
+
+//loop entre estruturas iteráveis (arreys, strings)
+function logLetras(palavra){
+  for(letra of palavra){
+    console.log(letra);
+  }
+}
+
+const palavra = "abacaxi";
+
+logLetras(palavra)
+//a
+//b
+//c
+//a
+//x
+//i
+
+function LogNumeros(nums){
+  for(num of num){
+    console.log
+  }
+}
+
+const nums = [30, 20, 233, 2];
+
+logLetras(nums)
+//30
+//20
+//233
+//2
+
+
+
+//while 
+//executa instruções até que a condição se torne falsa.
+
+function exemploWhile(){
+  let num = 0
+
+  while(num <= 5){
+    conslole.log(num);
+    num++
+  }
+}
+
+exemploWhile()
+//0
+//1
+//2
+//3
+//4
+//5
+
+//do...while
+//executa instruções até que a condição se torne falsa(porem a primeira execução sempre ocorre).
+function exemploDoWhile(){
+  let num = 0;
+
+  do {
+    console.log(num);
+    num++;
+  }while(num <= 5)
+}
+
+exemploDoWhile()
+//0
+//1
+//2
+//3
+//4
+//5
+
+function exemploDoWhile(){
+  let num = 6;
+
+  do{
+    console.log(num);
+    num++;
+  } while(num <= 5)
+}
+
+exemploWhile()
+//6
