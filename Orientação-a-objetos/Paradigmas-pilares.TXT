@@ -1,0 +1,16 @@
+A progrmação tem 2 paradigmas:
+
+1-> Imperativo: Foca em como os problemas serão resolvidos;
+
+2-> Declarativo: Foca no que fazer (banco de dados em sql ou progrmação funcional).
+
+->Os programas são "objetos" que possuem uma série de propriedades.
+
+->Pilares:
+- Herança-> O objeto filho herda propriedades e métodos do objeto pai 
+
+- Polimorfismo-> Objetos podem herdar a mesma classe pai, masse comportarem de forma diferente quando invocamos seus métodos.
+
+- Encapsulamento-> Cada classe tem propriedades e métodos independentes do restante do código.
+
+- Abstração-> Processo mental que consiste em isolar um aspecto determinado de um estado de coisas relatvamente complexo, a fim de simplificar a sua avaliação, classificação ou para permitir a comunicação do mesmo (é simplificar e generalizar cada vez mais)
