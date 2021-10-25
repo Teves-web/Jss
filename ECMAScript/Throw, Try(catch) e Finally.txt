@@ -1,0 +1,6 @@
+Throw -> Se utilizar o return, irá retornar uma string qualquer, MAS se utilizar o Throw tera um comportamento do console dizendo que aconteceu um erro(tendo todas as propriedades de um erro).
+
+Try...Catch-> É uma declaração que dentro do bloco try, verifica-se um pedaço de código, e se esse tipo de código tiver algum tipo de erro ele será tratado/capturado na funçã catch(pode manipular dentro do cat da maneira como preferir.
+Catch->Permite a manipulação do erro de uma forma mais organizada/personalizada.
+
+Finally -> Uma instrução que pode ser chamada com erro ou n. É uma chamada
