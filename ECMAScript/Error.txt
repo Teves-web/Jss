@@ -1,0 +1,10 @@
+Erros que ocorrem em tem po de execução:
+
+	Composto por:
+	-Mensagem 
+	-Nome
+	-Linha
+	-Call Stack
+	
+DOMException: Erros relacionados ao Documento Object Model (DOM).
+- São erros referentes a estretura da arvores de elementos dentro dentro de uma página da web.
