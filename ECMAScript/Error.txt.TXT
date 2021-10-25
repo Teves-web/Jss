@@ -1,0 +1,7 @@
+Erros que ocorrem em tem po de execução:
+
+	Composto por:
+	-Mensagem 
+	-Nome
+	-Linha
+	-Call Stack
