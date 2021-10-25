@@ -23,3 +23,11 @@ const myPromise = new Promise((resolve, reject) => {
     
     // Async/Await: Funções assíncronas precisam dessas duas palavras chave; -> também retornam Promises;
     
+    // APIs: Application Programing Interface: Uma API é uma forma de intermediar os resultados do back-end com o que é aresentado no front-end (consegue-se acessálas por meio de URLs);
+    //JSON: JavaScript Object Notation: é comum que APIs retornem seus dados no formato .json, portanto precisamos tratar esses dados quando os recebemos.
+    
+    //Fetch: Consumindo APIs -> Operações no banco (POST, GET, PUT, DELETE...)
+      fetch(url, options)
+       .then(response => response.json())
+       .then(json => console.log(json))
+    // retorna uma Promise 
