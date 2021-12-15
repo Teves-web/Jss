@@ -1,4 +1,5 @@
 //D.O.M (Document Object Model) ->O DOM html é um padrão de como acessar e modificar os elementos HTML de uma página.
+// árvore de elementos da página
 
 
 //BOM (Browser Object Model) -> Tudo o que está dentro do objeto window.
